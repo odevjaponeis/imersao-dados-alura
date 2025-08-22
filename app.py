@@ -5,7 +5,7 @@ import plotly.express as px
 # --- Configuração da Página ---
 # Define o título da página, o ícone e o layout para ocupar a largura inteira.
 st.set_page_config(
-    page_title="Análise do Mercado de Trabalho Júnior",
+    page_title="Análise do Mercado de Trabalho",
     page_icon="🐣",
     layout="wide",
 )
@@ -215,4 +215,5 @@ with col_centro:
 # --- Tabela de Dados Detalhados ---
 st.subheader("Dados Detalhados")
 st.dataframe(apenas_jr)
+
 
